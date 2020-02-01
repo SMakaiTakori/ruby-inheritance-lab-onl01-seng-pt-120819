@@ -6,7 +6,7 @@ class Teacher < User
   
   # returns a random element from that array.
   def teach
-    Array.sample(KNOWLEDGE)
+    KNOWLEDGE.sample(KNOWLEDGE)
   
   end
     
